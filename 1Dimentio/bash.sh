@@ -12,8 +12,4 @@ do
   ./monteCarlo $((2**i)) >> mc_error.dat
 done
  
-
-echo "Plotting absolute error "
-./log-log_plot.py
-
 rm mc_error_all.dat
